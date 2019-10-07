@@ -1,0 +1,216 @@
+这里的id就是桌子的倍率范围比如 id=17  对应的value=50最大炮
+
+
+4C-CC-6A-8F-1D-55
+
+
+
+
+ChangeRoleIsOnline
+
+FishSaveRoleGlobel		   金币变成增加
+
+FishSaveRoleOtherInfo
+
+FishSaveUserInfo
+
+HandleResetUserInfo
+
+LC_Cmd_AccountOnlyIDSuccess
+
+
+OnHandleGameIDConvertUserID//获取玩家id
+
+FishSaveRoleGameData
+
+RoleSaveMin保存玩家信息倒计时
+
+
+OnSaveInfoToDB保存玩家信息的函数   ->SaveAllRoleInfo
+
+CalBaseRatio基础概率
+
+
+
+LogInfoToFile("CollideBuYu.txt", "冰冻子弹 %d %d", cd.goldNum, cd.playerID);
+
+LogInfoToFile("LogGold.txt", "金币的保存 %d %d", pMsg->dwGlobel, pMsg->dwUserID);
+
+
+LogInfoToFile("LogonError.txt", "微信登陆 接收到数据 %s", pData);
+
+
+FishGoldRechargeRecord     
+
+
+
+
+
+
+
+
+
+
+
+http://119.23.220.20:1680/pay_callback_lj.clkj?
+
+
+
+http://119.23.220.20:1680/pay_callback_lj.clkj?/success/true/orderid,price,ChannelCode,channelOrderid,channelLabel,sign,callbackinfo
+
+
+pHttpInitData.AddWebAddr(HT_Recharge, "pay_callback_lj.clkj?", "success", true, "orderid,price,ChannelCode,channelOrderid,channelLabel,sign,callbackinfo");//,sign2,version,freePrice,sdkCode 可选参数
+
+
+
+炮台可以切换，切换炮台会有不同类型的体验哦！
+
+
+充值请联系官方客服！
+
+
+
+
+
+
+充值异步回调: transdata={"appid":"3003814659","appuserid":"16074","cporderid":"17","cpprivate":"73014444045","currency":"RMB","feetype":0,"money":28.00,"paytype":403,"result":0,"transid":"32071602161910004905","transtime":"2016-02-16 19:10:27","transtype":0,"waresid":3}&sign=dL+bYuY8VO7VWvqfGMxZNx7aS/ww77IQFj83iVZhx+rqUSCL2tBQuZmoHrzPTmDINaoLK1w7/sXkdLeDCffg7PTz/IzPlX61hPXCZswXbTBReSbEq36q0kEZaOM70pHA45NQ1HFS5oBMJ/02FkfqjGJTcLgKnhulByzVLsZCtVI=&signtype=RSA 2016-02-16 19:10:27
+普通充值异步回调: transdata={"appid":"3003814659","appuserid":"16081","cporderid":"377957122049","cpprivate":"","currency":"RMB","feetype":0,"money":1.00,"paytype":401,"result":0,"transid":"32021602171939574058","transtime":"2016-02-17 19:41:26","transtype":0,"waresid":1}&sign=HWwVrOyd8d1ty6HweaFlitB6ES8PKZo2HDM95Ag5AhyUj9M6zUCSjSJfsoK630CcSKEAd5kk/CC4w0loiBlMi1/spko6j1aF8JMks4m/Mq6bElQKTZl4O7g3Q0ODV+hV1WCsG1DNVhnvsybJnUPWxgciP8G5T0in2T8pzRh8VFo=&signtype=RSA 2016-02-17 19:41:26
+普通充值异步回调:  2016-02-17 19:41:42
+普通充值异步回调:  2016-02-17 19:42:02
+普通充值异步回调: transdata={"appid":"3003814659","appuserid":"16081","cporderid":"91","cpprivate":"390842023943","currency":"RMB","feetype":0,"money":1.00,"paytype":401,"result":0,"transid":"32031602172001547430","transtime":"2016-02-17 20:02:59","transtype":0,"waresid":2}&sign=PcuP2YmZ0wQW6IJuh8Q8XAfiF048ubML6/AdFQxsNijkORSKk6ZKBUt0iA00Pldl7UcU3KntCmNKSYj7iTSRvpVdDQcs0ayeduY7NDHE8tWZ/GRVZO31K+0HjiieblXIKIdug+0zakBtdQITR8457v6Kte6Tmp9KXgbjeb2jKeA=&signtype=RSA 2016-02-17 20:03:02
+
+
+
+
+
+
+SendNewCmdToClient
+
+
+
+
+
+
+
+
+536870912     536870912
+
+
+
+
+1551007533     1550811036
+
+1551309026	1551498522	
+
+
+
+
+1073741824    1073741824
+
+
+
+
+
+
+
+
+
+
+	if (MessageType == MT_Center || MessageType == MT_CenterMessage)
+	{
+		DWORD PageSize = sizeof(CG_Cmd_SendMessage)+sizeof(TCHAR)*MessageSize;
+		CG_Cmd_SendMessage* msg = (CG_Cmd_SendMessage*)malloc(PageSize);
+		if (!msg)
+		{
+			ASSERT(false);
+			return;
+		}
+		//Center -> Game 0
+
+		CheckMsgSize(PageSize);
+		msg->SetCmdType(GetMsgType(Main_Message, CG_SendMessage));
+		msg->SetCmdSize(ConvertDWORDToWORD(PageSize));
+		
+		if (MessageType == MT_Center)
+			msg->MessageType = MT_Game;
+		else if (MessageType == MT_CenterMessage)
+			msg->MessageType = MT_GameMessage;
+
+		msg->MessageColor = MessageColor;
+		msg->StepNum = StepNum;
+		msg->StepSec = StepSec;
+		msg->Param = Param;
+		msg->MessageSize = MessageSize;
+		memcpy_s(msg->Message, msg->MessageSize * sizeof(TCHAR), pMessage, MessageSize* sizeof(TCHAR));
+		//TCHARCopy(msg->Message, msg->MessageSize, pMessage, _tcslen(pMessage));
+
+		m_CenterServerManager.SendNetCmdToAllGameServer(msg);
+
+
+
+
+
+
+
+
+ipay.iapppay.com:9999/payapi/tokencheck
+
+ipay.iapppay.com:9999/payapi/order
+
+
+ipay.iapppay.com:9999/payapi/queryresult
+
+
+
+
+payapi/order
+
+
+
+
+
+
+
+
+WeiXin1717028419
+
+聚娱乐
+
+http://wx.qlogo.cn/mmopen/fWJhv9xMFTuYgYjnicwZwkz6y95mzkzaQQXiaEyWthJnZbnJ6Q3jax50NiaKiaxP5lwic81FlzJdgsn5kKZt3lIB0OrzdYqXkwYYU/0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://wx.qlogo.cn/mmopen/ajNVdqHZLLDU398yIf8vjt6DflSkkuictGTN6NukON7icqW63zicJ9jYXSvRcfuECNYQIjAMUAibicAeBfOXzdghKyJeCCHtWpxJpeNwh9ibXia7II/0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

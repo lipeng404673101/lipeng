@@ -1,0 +1,283 @@
+微聚公网ID：47.92.123.59
+账号：administrator
+密码:DFwl671714
+
+
+
+聚宝云17192407167@163.com  
+ 密码DFwl671714
+
+签到
+
+https://b.jubaopay.com/front/api/updateinit.htm#/dashboard
+
+
+//机器人的头像值
+http://jiqiren
+
+
+
+				//添加参数
+TCHARCopy(msg.RoleInfo.IPAddress, CountArray(msg.RoleInfo.IPAddress), pDestRole->GetRoleInfo().IPAddress, _tcslen(pestRole->GetRoleInfo().IPAddress));
+/////////////////////////////////
+架设时需要创建ftp服务器的路径  FTPFilePath="C:\fishftp"
+
+  <GameServer NetworkID="100" IP="39.108.64.139" Port="12051"
+              ListenCount="16"
+              MaxSendCountPerFrame="1"
+              MaxAcceptNumPerFrame="16"
+              MaxRecvCmdCount="128"
+              MaxSendCmdCount="256"
+              SceneHearbeatTick="100"
+              RecvBuffSize="81960"
+              SendBuffSize="81960"
+              RecvThreadSum="4"
+              SendThreadSum="4"
+              SleepTime="1"
+              AcceptSleepTime="1"
+              TimeOut="100000"
+              BuffSize="81960"
+              DBNetworkID ="7"
+              LogDBNetworkID="10"
+              BeginRobotUserID="0" EndRobotUserID="0" SaveDBNetworkID="8"/>
+
+
+
+<LogonServer LogonID="14"
+               ClientNetworkID="15"
+               ClientTimeOut="100000"
+               ClientIP="127.0.0.1"
+               ClientPort="40056"
+               ClientListenCount="16"
+               ClientMaxSendCountPerFrame="1"
+               ClientMaxAcceptNumPerFrame="16"
+               ClientMaxRecvCmdCount="64"
+               ClientMaxSendCmdCount="64"
+               ClientSceneHearbeatTick="100"
+               ClientRecvBuffSize="1024"
+               ClientSendBuffSize="1024"
+               ClientRecvThreadSum="4"
+               ClientSendThreadSum="4"
+               ClientSleepTime="1"
+               ClientAcceptSleepTime="1"
+               ClientBuffSize="1024"
+               
+               ServerNetworkID="16"
+               ServerTimeOut="100000"
+               ServerIP="127.0.0.1"
+               ServerPort="12005"
+               ServerListenCount="16"
+               ServerMaxSendCountPerFrame="10240"
+               ServerMaxAcceptNumPerFrame="16"
+               ServerMaxRecvCmdCount="10240"
+               ServerMaxSendCmdCount="10240"
+               ServerSceneHearbeatTick="100"
+               ServerRecvBuffSize="1232896"
+               ServerSendBuffSize="1232896"
+               ServerRecvThreadSum="1"
+               ServerSendThreadSum="1"
+               ServerSleepTime="1"
+               ServerAcceptSleepTime="1"
+               ServerBuffSize="1232896"
+               DBNetworkID="6"
+               LogDBID="10"/>
+
+
+//////////////////////////////////
+
+BWG7X-J98B3-W34RT-33B3R-JVYW9   vs2013密匙
+
+
+
+
+
+//bool	ChangeRoleGlobe(int AddGlobe, bool IsSendToClient = true, bool IsSaveToDB = false,bool IsSendToMiniGame = false);
+
+
+
+
+乐多捕鱼
+http://119.23.220.20/manage
+超级管理员
+账号：admin  密码：123456
+管理员
+账号：ceshi  密码：123456
+
+
+
+捕鱼联盟公网IP：119.23.220.20 
+
+账号：administrator
+密码：fengchui1..0
+
+
+
+
+
+
+
+王者捕鱼服务器公网IP：39.108.64.139 
+
+用户名：administrator
+密码:Ads116118
+
+
+ftp:adminhlp    hlp1988810
+
+
+39.108.64.139/manage 
+
+ 
+
+超级管理员
+账号：admin  密码：123456
+
+
+
+捕鱼测试用服务器公网IP：175.126.168.153 
+
+账号：administrator
+密码：feizi1.!
+
+
+
+
+
+
+
+普通鱼5  6    9  10    12  13
+
+
+
+乐多测试服
+
+118.31.14.193 
+
+ 
+
+administrator
+TianCheng2018
+
+
+
+
+
+
+//////////////////////////////////////////////
+
+王者新服务器：
+
+
+添加微信登录
+
+
+服务器公网IP：120.78.152.159 
+
+用户名：administrator
+密码:MQa5816ko
+
+
+
+
+
+
+
+//大圣捕鱼
+47.100.105.109
+
+
+administrator
+
+XDQ159852a
+
+
+服务器公网IP：47.100.105.109 
+
+用户名：administrator
+密码:LL118119a
+
+
+
+
+
+、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、、
+
+
+
+新
+王者娱乐服务器服务器公网IP：39.104.70.148 
+
+用户名：administrator
+密码:Woaini204422
+
+
+14147
+
+[::1]
+
+王者娱乐后台
+http://39.104.70.148:8080
+账号：admin  密码：123456
+
+aoc  密码
+
+
+
+
+、、、、、、、、、、、、、、
+聚宝盆
+
+
+39.108.155.70 
+
+(公)
+172.18.145.53 
+
+
+ADSc11888
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

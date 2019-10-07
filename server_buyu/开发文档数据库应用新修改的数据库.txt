@@ -1,0 +1,142 @@
+call FishCreateRobot('22','2018-02-06 22:59:28');//添加机器人的语句  个数  时间此语句有效必须执行存储过程
+
+
+
+
+//添加机器人的逻辑存储  执行后可以用语句添加  只需要数量和时间就行   这个可以做成后台功能
+
+DROP PROCEDURE IF EXISTS `FishCreateRobot`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `FishCreateRobot`(IN `RobotSum` int unsigned,IN  `LogonTime` datetime)
+BEGIN
+	
+	declare i int unsigned default 0;
+	declare Max int unsigned default 0;
+	select count(*) into @RowSum from accountinfo where IsRobot = 0;
+	select CONVERT(substring(AccountName,6),UNSIGNED) into @MaxRobot from accountinfo where IsRobot= 1 and AccountName like 'Robot%' order by AccountName desc limit 0,1;
+	if @MaxRobot is null THEN	
+			set i = 0;
+			set Max = RobotSum;
+	else 
+		  set i = @MaxRobot+1;
+			set Max = RobotSum+@MaxRobot+1;
+	end if;
+	while i< Max DO	
+				set @Account = CONCAT('Robot',i);
+				set @Mac = '';
+				set @LogNickName = CONCAT('用户',substring(replace(uuid(),'-',''),CONVERT(RAND()*24 +1,UNSIGNED),6));
+				
+				while  EXISTS (select UserID from accountinfo where NickName = @LogNickName) do
+								set @LogNickName = CONCAT('用户',substring(replace(uuid(),'-',''),CONVERT(RAND()*24 +1,UNSIGNED),6));
+				end while;
+
+				set @Pass1 = 740850242;
+				set @Pass2 = 1570677007;
+				set @Pass3 = 202008364;
+
+				set @Gender = CONVERT(RAND()*100,UNSIGNED);
+				set @GlobelSum = CONVERT(RAND()* 5000000,UNSIGNED);
+				set @InitRateValue = 7;
+				set @FishLevel = CONVERT(RAND()*27+3,UNSIGNED);
+				set @FaceID = CONVERT(RAND()*4,UNSIGNED);
+				set @AchievementPoint = CONVERT(RAND()* 100+50,UNSIGNED);
+				set @TitleID = CONVERT(RAND()* 10,UNSIGNED);
+				set @TotalRecharge = CONVERT(RAND() * 800,UNSIGNED);
+				set @Currcey = @TotalRecharge*10;
+				set @MedalSum = CONVERT(RAND()* 2000,UNSIGNED);
+				set @VipLevel = CONVERT(RAND()*5,UNSIGNED);
+				set @RandIpRowIndex= CONVERT(@RowSum * RAND(),UNSIGNED);
+
+				set @InsertStr = concat('select RsgIP into @RsgIp from accountinfo where IsRobot = 0 limit ',@RandIpRowIndex,',1;');
+				prepare stmt2 from @InsertStr;
+				EXECUTE stmt2;
+			
+				if @Gender < 50 then
+						call FishAccountRsg(@Account,@Mac,@Pass1,@Pass2,@Pass3,@LogNickName,0,@GlobelSum,@InitRateValue,@RsgIp,LogonTime,0);
+				ELSE	
+						call FishAccountRsg(@Account,@Mac,@Pass1,@Pass2,@Pass3,@LogNickName,1,@GlobelSum,@InitRateValue,@RsgIp,LogonTime,0);
+				end if;
+				
+				set @UserID = @@IDEntity;
+				update accountinfo set MedalNum = @MedalSum,CurrencyNum = @Currcey,FishLevel = @FishLevel,FaceID = @FaceID,AchievementPoint = @AchievementPoint,TitleID=@TitleID,
+								TotalRechargeSum = @TotalRecharge,VipLevel = @VipLevel ,IsRobot = 1
+						where UserID = @UserID;
+
+				set i =i+1;
+	end while;
+END
+;;
+DELIMITER ;
+
+
+
+
+
+//修改注册存储  限制机器码  或者其他
+
+
+
+DROP PROCEDURE IF EXISTS `FishAccountRsg`;
+DELIMITER ;;
+CREATE DEFINER=`root`@`localhost` PROCEDURE `FishAccountRsg`(IN `Account` varchar(32),Mac varchar(56),IN `PasswordCrc1` int unsigned,IN `PasswordCrc2` int unsigned,IN `PasswordCrc3` int unsigned,IN `NickName` varchar(8),IN `Gender` bit,IN `InitGlobelSum` int unsigned,IN `InitRateValue`  blob,IN `RsgIP` varchar(16),IN `LogTime` datetime,IN `FishCode` int unsigned)
+BEGIN
+	set @OutUserID = 0;
+	if not exists (select accountinfo.UserID from accountinfo where accountinfo.RsgIP = RsgIP) THEN
+	
+	if not exists (select accountinfo.UserID from accountinfo where accountinfo.AccountName = Account) THEN
+			INSERT accountinfo(AccountName,MacAddress,PasswordCrc1,PasswordCrc2,PasswordCrc3,NickName,Gender,IsCanChangeAccount,GlobalNum,MedalNum,RsgIP,RsgLogTime,RateValue,FishCode)
+			values (Account,Mac,PasswordCrc1,PasswordCrc2,PasswordCrc3,NickName,Gender,0,InitGlobelSum,0,RsgIP,LogTime,InitRateValue,FishCode);
+			set @OutUserID = @@IDEntity;
+
+			insert into FishUserEntity(UserID,Name,Phone,Email,IdentityID,EntityItemUseName,EntityItemUsePhone,EntityItemUseAddress) values(@OutUserID,'','0','','','','0','');
+	ELSE
+			set @OutUserID = 0;
+	ELSE
+			set @OutUserID = 0;
+	end if;
+	select @OutUserID;
+END
+;;
+DELIMITER ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

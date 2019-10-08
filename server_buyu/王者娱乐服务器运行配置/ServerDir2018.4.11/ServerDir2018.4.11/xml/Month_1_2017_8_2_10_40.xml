@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<FishMonth MonthID="1">
+    <RoleInfo Index="1" UserID="18287" FaceID="2" NickName="用户b82d9f" Socre="39480" VipSocre="0"/>
+    <RoleInfo Index="2" UserID="18220" FaceID="2" NickName="用户5bdd9f" Socre="28455" VipSocre="0"/>
+    <RoleInfo Index="3" UserID="18200" FaceID="2" NickName="用户748d9f" Socre="15495" VipSocre="309"/>
+    <RoleInfo Index="4" UserID="18357" FaceID="1" NickName="用户fb591d" Socre="15395" VipSocre="0"/>
+    <RoleInfo Index="5" UserID="18348" FaceID="3" NickName="用户c2fdd9" Socre="15350" VipSocre="0"/>
+    <RoleInfo Index="6" UserID="18600" FaceID="3" NickName="用户17a48b" Socre="15285" VipSocre="0"/>
+    <RoleInfo Index="7" UserID="18550" FaceID="0" NickName="用户683d9f" Socre="15165" VipSocre="0"/>
+    <RoleInfo Index="8" UserID="18276" FaceID="0" NickName="用户68bfe6" Socre="15025" VipSocre="0"/>
+    <RoleInfo Index="9" UserID="18342" FaceID="3" NickName="用户3c32d9" Socre="9639" VipSocre="192"/>
+    <RoleInfo Index="10" UserID="18552" FaceID="3" NickName="用户c3d9fe" Socre="9652" VipSocre="0"/>
+    <RoleInfo Index="11" UserID="18396" FaceID="2" NickName="用户98d9fd" Socre="9317" VipSocre="186"/>
+    <RoleInfo Index="12" UserID="18410" FaceID="1" NickName="用户6c75d9" Socre="9393" VipSocre="0"/>
+    <RoleInfo Index="13" UserID="18183" FaceID="0" NickName="用户f70fd9" Socre="9183" VipSocre="0"/>
+    <RoleInfo Index="14" UserID="18417" FaceID="3" NickName="用户f29663" Socre="9014" VipSocre="0"/>
+    <RoleInfo Index="15" UserID="18418" FaceID="1" NickName="用户f3477c" Socre="8435" VipSocre="0"/>
+    <RoleInfo Index="16" UserID="18191" FaceID="1" NickName="用户b0acd9" Socre="8351" VipSocre="0"/>
+    <RoleInfo Index="17" UserID="18510" FaceID="1" NickName="用户3f2984" Socre="8292" VipSocre="0"/>
+    <RoleInfo Index="18" UserID="18188" FaceID="0" NickName="用户f3bee7" Socre="8238" VipSocre="0"/>
+    <RoleInfo Index="19" UserID="18180" FaceID="3" NickName="用户632f1b" Socre="8086" VipSocre="0"/>
+    <RoleInfo Index="20" UserID="18585" FaceID="2" NickName="用户4d0ded" Socre="5440" VipSocre="0"/>
+</FishMonth>

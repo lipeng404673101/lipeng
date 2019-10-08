@@ -1,0 +1,69 @@
+﻿生成启动时间为 2018/5/29 11:29:36。
+     1>项目“D:\ServerCoreWZ\SourceCode\Common\Common.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\SourceCode\Common\\..\ThirdParty\MySQL\Include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\Common\Debug\Common.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\Common\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\Common\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\SourceCode\Common\\..\ThirdParty\MySQL\Include /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\Common\Debug\Common.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\Common\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\Common\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 Common.cpp Crc32.cpp Dump.cpp Encoder.cpp FTPClient.cpp FTPServer.cpp GateWay.cpp HttpClient.cpp HttpServer.cpp NewServer.cpp Random.cpp SQL.cpp SqlIndexMap.cpp SqlOperator.cpp SqlTable.cpp SqlUpdater.cpp SqlUtinity.cpp TCPClient.cpp TCPServer.cpp TCPServerOld.cpp TestSql.cpp Timer.cpp tinyxml2.cpp UDPClient.cpp UDPServer.cpp
+         UDPServer.cpp
+         UDPClient.cpp
+         tinyxml2.cpp
+         Timer.cpp
+         TestSql.cpp
+         TCPServerOld.cpp
+         TCPServer.cpp
+         TCPClient.cpp
+         SqlUtinity.cpp
+         SqlUpdater.cpp
+         SqlTable.cpp
+         SqlOperator.cpp
+         SqlIndexMap.cpp
+         SQL.cpp
+         Random.cpp
+         NewServer.cpp
+         HttpServer.cpp
+         HttpClient.cpp
+     1>HttpClient.cpp(81): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(2238) : 参见“gethostbyname”的声明
+         GateWay.cpp
+         FTPServer.cpp
+         正在生成代码...
+         正在编译...
+         FTPClient.cpp
+         Encoder.cpp
+         Dump.cpp
+         Crc32.cpp
+         Common.cpp
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"D:\ServerCoreWZ\\Output\Debug\Common.lib" /LIBPATH:D:\ServerCoreWZ\SourceCode\Common\\..\ThirdParty\MySQL\Lib /NOLOGO D:\ServerCoreWZ\\Output\Temp\Common\Debug\Common.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\Crc32.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\Dump.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\Encoder.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\FTPClient.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\FTPServer.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\GateWay.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\HttpClient.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\HttpServer.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\NewServer.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\Random.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\SQL.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\SqlIndexMap.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\SqlOperator.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\SqlTable.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\SqlUpdater.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\SqlUtinity.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\stdafx.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\TCPClient.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\TCPServer.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\TCPServerOld.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\TestSql.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\Timer.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\tinyxml2.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\UDPClient.obj
+         D:\ServerCoreWZ\\Output\Temp\Common\Debug\UDPServer.obj
+         Common.vcxproj -> D:\ServerCoreWZ\\Output\Debug\Common.lib
+     1>已完成生成项目“D:\ServerCoreWZ\SourceCode\Common\Common.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.47

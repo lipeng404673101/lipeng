@@ -1,0 +1,75 @@
+﻿生成启动时间为 2018/5/29 11:30:22。
+     1>项目“D:\ServerCoreWZ\SourceCode\OperateServer\OperateServer\OperateServer.vcxproj”在节点 5 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\\SourceCode\Common /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D OPERATESERVER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\OperateServer.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\\SourceCode\Common /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D OPERATESERVER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\OperateServer.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 ..\..\CommonFile\DBLogManager.cpp ..\..\CommonFile\FishConfig.cpp ..\..\CommonFile\FishServerConfig.cpp ..\..\CommonFile\tinyxml\tinyxml2.cpp ..\..\CommonFile\tinyxml\XmlReader.cpp BindEmailManager.cpp BindPhoneManager.cpp BuyEntityItemManager.cpp ChannelLogonManager.cpp FishServer.cpp IApppay\CryptHelper.cpp IApppay\SignUtils.cpp IOSPayManager.cpp NormalRechargeManager.cpp OperateServer.cpp OrderOnlyManager.cpp PhoneLogon.cpp PhonePayManager.cpp PhoneSMSManager.cpp QQLogon.cpp QQUserInfoManager.cpp RealNameVerificationManager.cpp UseRMBManager.cpp WeiXinLogon.cpp WeiXinUserInfoManager.cpp
+         WeiXinUserInfoManager.cpp
+         WeiXinLogon.cpp
+         UseRMBManager.cpp
+         RealNameVerificationManager.cpp
+         QQUserInfoManager.cpp
+         QQLogon.cpp
+         PhoneSMSManager.cpp
+         PhonePayManager.cpp
+         PhoneLogon.cpp
+         OrderOnlyManager.cpp
+         OperateServer.cpp
+         NormalRechargeManager.cpp
+         IOSPayManager.cpp
+         SignUtils.cpp
+         CryptHelper.cpp
+         FishServer.cpp
+         ChannelLogonManager.cpp
+         BuyEntityItemManager.cpp
+         BindPhoneManager.cpp
+         BindEmailManager.cpp
+         正在生成代码...
+         正在编译...
+         XmlReader.cpp
+         tinyxml2.cpp
+         FishServerConfig.cpp
+         FishConfig.cpp
+         DBLogManager.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\\SourceCode\Common /Zi /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D OPERATESERVER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 ..\..\CommonFile\json\json_reader.cpp ..\..\CommonFile\json\json_value.cpp ..\..\CommonFile\json\json_writer.cpp
+         json_writer.cpp
+         json_value.cpp
+         json_reader.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ServerCoreWZ\\Output\Debug\OperateServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\ServerCoreWZ\\Output\Debug Common.lib libeay32.lib ssleay32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ServerCoreWZ\\Output\Debug\OperateServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ServerCoreWZ\\Output\Debug\OperateServer.lib" /MACHINE:X86 D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\DBLogManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\FishConfig.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\FishServerConfig.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\json_reader.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\json_value.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\json_writer.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\tinyxml2.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\XmlReader.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\BindEmailManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\BindPhoneManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\BuyEntityItemManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\ChannelLogonManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\FishServer.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\CryptHelper.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\SignUtils.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\IOSPayManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\NormalRechargeManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\OperateServer.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\OrderOnlyManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\PhoneLogon.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\PhonePayManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\PhoneSMSManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\QQLogon.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\QQUserInfoManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\RealNameVerificationManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\stdafx.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\UseRMBManager.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\WeiXinLogon.obj
+         D:\ServerCoreWZ\\Output\Temp\OperateServer\Debug\WeiXinUserInfoManager.obj
+         OperateServer.vcxproj -> D:\ServerCoreWZ\\Output\Debug\OperateServer.exe
+     1>已完成生成项目“D:\ServerCoreWZ\SourceCode\OperateServer\OperateServer\OperateServer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:13.06

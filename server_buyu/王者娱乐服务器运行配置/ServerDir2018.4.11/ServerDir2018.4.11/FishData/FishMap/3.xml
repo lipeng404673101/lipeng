@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map BackgroundImage="3" Repeat="true" Name="100倍房间">
+  <packages>
+    <packge StartSeconds="30" EndSeconds="40" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>200</fishgroup>
+    </packge>
+    <packge StartSeconds="90" EndSeconds="100" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>201</fishgroup>
+    </packge>
+    <packge StartSeconds="150" EndSeconds="160" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>202</fishgroup>
+    </packge>
+	    <packge StartSeconds="160" EndSeconds="170" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>200</fishgroup>
+    </packge>
+    <packge StartSeconds="170" EndSeconds="180" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>201</fishgroup>
+    </packge>
+    <packge StartSeconds="180" EndSeconds="190" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>202</fishgroup>
+    </packge>
+    <packge StartSeconds="190" EndSeconds="200" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>200</fishgroup>
+    </packge>
+    <packge StartSeconds="210" EndSeconds="220" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>201</fishgroup>
+    </packge>
+    <packge StartSeconds="220" EndSeconds="230" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>202</fishgroup>
+    </packge>
+	    <packge StartSeconds="230" EndSeconds="240" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>200</fishgroup>
+    </packge>
+    <packge StartSeconds="240" EndSeconds="250" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>201</fishgroup>
+    </packge>
+    <packge StartSeconds="250" EndSeconds="260" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>202</fishgroup>
+    </packge>
+	
+	    <packge StartSeconds="270" EndSeconds="280" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>200</fishgroup>
+    </packge>
+    <packge StartSeconds="280" EndSeconds="290" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>201</fishgroup>
+    </packge>
+    <packge StartSeconds="290" EndSeconds="300" IntervalSeconds="30" Chance="5" MaxCount="6" PackageType="104">
+      <!-- 红包的鱼群ID -->
+      <fishgroup>202</fishgroup>
+    </packge>
+	
+  </packages>
+  <random_flows>
+    <!-- 随机发射的流程-->
+    
+    <flow>0</flow>
+    <flow>1</flow>
+    <flow>2</flow>
+    <flow>3</flow>
+    <flow>4</flow>
+    <flow>14</flow>
+	
+		 <!-- 随机发射的流程-->
+	<flow>15</flow>
+    <flow>16</flow>
+    <flow>17</flow>
+    <flow>18</flow>
+    <flow>19</flow>
+	<flow>30</flow>
+	
+	<flow>20</flow>
+    <flow>21</flow>
+    <flow>22</flow>
+    <flow>23</flow>
+    <flow>24</flow>
+	<flow>31</flow>
+	
+	<flow>25</flow>
+    <flow>26</flow>
+    <flow>27</flow>
+    <flow>28</flow>
+    <flow>29</flow>
+	<flow>32</flow>
+	
+  </random_flows>
+  <fixed_flows>
+    <orders>
+      <!-- 固定流程发射顺序 第1、4次发射流程-->
+      <order>9</order>
+	 <!--  <order>4</order> -->
+      <order>17</order>
+<!-- 	  <order>8</order>
+	  <order>12</order> -->
+    </orders>
+    <flows>
+	
+	  <!--固定流程列表，从下面中随机发射-->
+	  <flow>7</flow>
+      <flow>5</flow>
+      <flow>6</flow>
+	  <!--固定流程列表，从下面中随机发射-->
+	  <flow>33</flow>
+      <flow>34</flow>
+	  <flow>39</flow>
+      <flow>40</flow>
+	   <flow>45</flow>
+      <flow>46</flow>
+	  
+	  <!--固定流程列表，从下面中随机发射-->
+	  <flow>8</flow>
+	  
+      <flow>9</flow>
+      <flow>10</flow>
+	  <!--固定流程列表，从下面中随机发射-->
+	  <flow>35</flow>
+      <flow>36</flow>
+	  <flow>41</flow>
+      <flow>42</flow>
+	  <flow>47</flow>
+      <flow>48</flow>
+	  
+	 <!--固定流程列表，从下面中随机发射--> 
+	  <flow>11</flow>
+	  
+	  <flow>12</flow>
+	  <flow>13</flow>	  
+	   <!--固定流程列表，从下面中随机发射--> 
+	  <flow>37</flow>
+	  <flow>38</flow>
+	  <flow>43</flow>
+	  <flow>44</flow>
+	  <flow>49</flow>
+	  <flow>50</flow>
+	
+    <!--固定流程列表，从下面中随机发射-->   	  
+<!-- 	  <flow>7</flow>
+      <flow>5</flow>
+      <flow>6</flow>
+	  <flow>8</flow>
+      <flow>9</flow>
+      <flow>10</flow>		  
+	  <flow>11</flow>
+	  <flow>12</flow>	  
+	  <flow>13</flow> -->
+	  
+
+    </flows>
+  </fixed_flows>
+</map>

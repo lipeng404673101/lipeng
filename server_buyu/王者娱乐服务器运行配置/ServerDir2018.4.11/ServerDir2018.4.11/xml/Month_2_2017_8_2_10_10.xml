@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<FishMonth MonthID="2">
+    <RoleInfo Index="1" UserID="18269" FaceID="2" NickName="用户94e4d9" Socre="960" VipSocre="0"/>
+    <RoleInfo Index="2" UserID="18153" FaceID="0" NickName="用户867edd" Socre="846" VipSocre="0"/>
+    <RoleInfo Index="3" UserID="18440" FaceID="1" NickName="用户2904d9" Socre="791" VipSocre="15"/>
+    <RoleInfo Index="4" UserID="18292" FaceID="4" NickName="用户e3fdd9" Socre="791" VipSocre="0"/>
+    <RoleInfo Index="5" UserID="18374" FaceID="1" NickName="用户fd0e3a" Socre="760" VipSocre="0"/>
+    <RoleInfo Index="6" UserID="18576" FaceID="1" NickName="用户c5c79d" Socre="700" VipSocre="0"/>
+    <RoleInfo Index="7" UserID="18121" FaceID="4" NickName="用户9fd11e" Socre="679" VipSocre="13"/>
+    <RoleInfo Index="8" UserID="18406" FaceID="4" NickName="用户681d9f" Socre="642" VipSocre="0"/>
+    <RoleInfo Index="9" UserID="18471" FaceID="2" NickName="用户113bd9" Socre="595" VipSocre="0"/>
+    <RoleInfo Index="10" UserID="18421" FaceID="0" NickName="用户647dd9" Socre="594" VipSocre="0"/>
+    <RoleInfo Index="11" UserID="18445" FaceID="1" NickName="用户da4dd9" Socre="576" VipSocre="11"/>
+    <RoleInfo Index="12" UserID="18500" FaceID="1" NickName="用户37f06e" Socre="565" VipSocre="11"/>
+    <RoleInfo Index="13" UserID="18157" FaceID="0" NickName="用户764ced" Socre="564" VipSocre="11"/>
+    <RoleInfo Index="14" UserID="18484" FaceID="1" NickName="用户1c2f8d" Socre="574" VipSocre="0"/>
+    <RoleInfo Index="15" UserID="18439" FaceID="4" NickName="用户86c535" Socre="560" VipSocre="11"/>
+    <RoleInfo Index="16" UserID="18340" FaceID="2" NickName="用户b70db4" Socre="567" VipSocre="0"/>
+    <RoleInfo Index="17" UserID="18319" FaceID="2" NickName="用户7272dc" Socre="555" VipSocre="11"/>
+    <RoleInfo Index="18" UserID="18193" FaceID="2" NickName="用户3f8936" Socre="565" VipSocre="0"/>
+    <RoleInfo Index="19" UserID="18213" FaceID="4" NickName="用户06f56d" Socre="534" VipSocre="0"/>
+    <RoleInfo Index="20" UserID="18486" FaceID="3" NickName="用户02d9c8" Socre="530" VipSocre="0"/>
+</FishMonth>

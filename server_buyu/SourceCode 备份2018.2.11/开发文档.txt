@@ -1,0 +1,57 @@
+王者带库存添加代理绑定   添加微信登录     新版王者   公司版本   
+
+
+
+王者微信添加小数点  代理绑定   库存   此版本备份  备份时间 2017.11.9
+
+
+王者修改部分鱼概率后备份  2017.12.1
+
+
+		//60 80 100 150 200 250 300 500 600 700
+		if (fishType==22)
+		{
+			fbase = fbase / 60;
+		}
+		else if (fishType == 23)
+		{
+			fbase = fbase / 80;
+		}
+		else if (fishType == 16)
+		{
+			fbase = fbase / 100;
+		}
+		else if (fishType == 10)
+		{
+			fbase = fbase / 150;
+		}	
+		else if (fishType == 9)
+		{
+			//m_RoleGameData.CatchFishSum_9 += 1;
+			fbase = fbase / 200;
+		}
+		else if (fishType == 18)
+		{
+			fbase = fbase / 250;
+			//m_RoleGameData.CatchFishSum_18 += 1;
+		}
+		else if (fishType == 20)
+		{
+			fbase = fbase / 300;
+			//m_RoleGameData.CatchFishSum_20 += 1;
+		}
+		else if (fishType == 1)
+		{
+			fbase = fbase / 500;
+			//m_RoleGameData.CatchFishSum_1 += 1;
+		}
+		else if (fishType == 3)
+		{
+			fbase = fbase / 600;
+			//m_RoleGameData.CatchFishSum_3 += 1;
+		}
+		else if (fishType == 19)
+		{
+			fbase = fbase / 700;
+			//m_RoleGameData.CatchFishSum_19 += 1;
+		}

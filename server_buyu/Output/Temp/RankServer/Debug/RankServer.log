@@ -1,0 +1,32 @@
+﻿生成启动时间为 2018/5/29 11:30:22。
+     1>项目“D:\ServerCoreWZ\SourceCode\RankServer\RankServer.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\\SourceCode\Common /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D RANKSERVER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\RankServer.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\\SourceCode\Common /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D RANKSERVER /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\RankServer.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 ..\CommonFile\FishConfig.cpp ..\CommonFile\FishServerConfig.cpp ..\CommonFile\tinyxml\tinyxml2.cpp ..\CommonFile\tinyxml\XmlReader.cpp FishServer.cpp RankManager.cpp RankServer.cpp
+         RankServer.cpp
+         RankManager.cpp
+         FishServer.cpp
+         XmlReader.cpp
+         tinyxml2.cpp
+         FishServerConfig.cpp
+         FishConfig.cpp
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\app.res" app.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ServerCoreWZ\\Output\Debug\RankServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\ServerCoreWZ\\Output\Debug Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ServerCoreWZ\\Output\Debug\RankServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ServerCoreWZ\\Output\Debug\RankServer.lib" /MACHINE:X86 D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\app.res
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\FishConfig.obj
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\FishServerConfig.obj
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\tinyxml2.obj
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\XmlReader.obj
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\FishServer.obj
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\RankManager.obj
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\RankServer.obj
+         D:\ServerCoreWZ\\Output\Temp\RankServer\Debug\stdafx.obj
+         RankServer.vcxproj -> D:\ServerCoreWZ\\Output\Debug\RankServer.exe
+     1>已完成生成项目“D:\ServerCoreWZ\SourceCode\RankServer\RankServer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:35.29

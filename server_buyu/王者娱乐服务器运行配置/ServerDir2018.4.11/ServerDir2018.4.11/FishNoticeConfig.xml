@@ -1,0 +1,20 @@
+<Notices>
+
+    <!--
+	文本格式为 UTF-8
+	金币商店的配置
+	<Notice>
+		BeginYear 公告开始的年份   也就是公告从那一年开始发布
+		BeginMonth 公告发布的月份
+		BeginDay 公告发布起始于哪一天
+		BeginHour  公告发布起始于哪一时  
+		BeginMin 公告发布起始于哪一分
+		StepNum 公告发布的速度	
+		StepMin  公告发布的速度位移长度
+		OnceStepSec  公告重复次数
+		MessageInfo  公告的内容  每一时间对应一条公告信息  公告可以精确到分钟  也就是每分钟实时更新     如果想刷新可以在控制端点击刷新即可  修改完刷新就跟新公告了
+		MessageInfoColor  公告的字体颜色
+-->
+	<Notice BeginYear="2018" BeginMonth="4" BeginDay="4" BeginHour="23" BeginMin="35" StepNum="500" StepMin="50" MessageInfo="我最牛逼" OnceStepNum="3" OnceStepSec="3" MessageInfoColor="4294967295"/>
+
+	</Notices>

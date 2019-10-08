@@ -1,0 +1,326 @@
+﻿生成启动时间为 2018/5/29 11:29:49。
+     1>项目“D:\ServerCoreWZ\SourceCode\GameServer\GameServer.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\\SourceCode\Common /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D GAMESERVEAR /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\GameServer.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ServerCoreWZ\\SourceCode\Common /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D GAMESERVEAR /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\GameServer.pch" /Fo"D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\\" /Fd"D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /Zm110 ..\CommonFile\DBLogManager.cpp ..\CommonFile\FishConfig.cpp ..\CommonFile\FishServerConfig.cpp ..\CommonFile\tinyxml\tinyxml2.cpp ..\CommonFile\tinyxml\XmlReader.cpp AnnouncementManager.cpp EventManager.cpp ExChangeManager.cpp FishLogic\Config.cpp FishLogic\FishCallback.cpp FishLogic\FishDesk.cpp FishLogic\FishDeskCmd.cpp FishLogic\FishScene.cpp FishLogic\FishScene\Bullet.cpp FishLogic\FishScene\BulletManager.cpp FishLogic\FishScene\DeadStayTimer.cpp FishLogic\FishScene\Fish.cpp FishLogic\FishScene\FishCamera.cpp FishLogic\FishScene\FishCollider.cpp FishLogic\FishScene\FishLauncher.cpp FishLogic\FishScene\FishManager.cpp FishLogic\FishScene\FishMap.cpp FishLogic\FishScene\FishResData.cpp FishLogic\FishScene\FishResManager.cpp FishLogic\FishScene\PathController.cpp FishLogic\FishScene\PathEvent.cpp FishLogic\FishScene\PathLinearInterpolator.cpp FishLogic\FishScene\PathTimeController.cpp FishLogic\FishScene\RuntimeInfo.cpp FishLogic\FishUtility.cpp FishPackageManager.cpp FishServer.cpp FishTimer.cpp GameRobot.cpp GameServer.cpp GameTable.cpp LotteryManager.cpp Role.cpp RoleAchievement.cpp RoleAction.cpp RoleCache.cpp RoleCharManager.cpp RoleCheck.cpp RoleChest.cpp RoleEx.cpp RoleFtpManager.cpp RoleGameData.cpp RoleGiff.cpp RoleIdEntity.cpp RoleItemManager.cpp RoleLauncherManager.cpp RoleLogonManager.cpp RoleMailManager.cpp RoleManager.cpp RoleMessageStates.cpp RoleMonth.cpp RoleMonthCard.cpp RoleOnlineReward.cpp RoleProtect.cpp RoleQueueManager.cpp RoleRank.cpp RoleRate.cpp RoleRelation.cpp RoleRelationRequest.cpp RoleTask.cpp RoleTitleManager.cpp RoleVip.cpp ShopManager.cpp SkillInfo.cpp TableManager.cpp UserLogonManager.cpp
+         UserLogonManager.cpp
+         TableManager.cpp
+     1>TableManager.cpp(124): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_snwprintf”的声明
+     1>TableManager.cpp(129): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_snwprintf”的声明
+     1>TableManager.cpp(137): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_snwprintf”的声明
+     1>TableManager.cpp(123): warning C4101: “OutBuf”: 未引用的局部变量
+     1>TableManager.cpp(922): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_snwprintf”的声明
+     1>TableManager.cpp(930): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_snwprintf”的声明
+         SkillInfo.cpp
+         ShopManager.cpp
+         RoleVip.cpp
+         RoleTitleManager.cpp
+         RoleTask.cpp
+         RoleRelationRequest.cpp
+         RoleRelation.cpp
+         RoleRate.cpp
+         RoleRank.cpp
+         RoleQueueManager.cpp
+         RoleProtect.cpp
+         RoleOnlineReward.cpp
+         RoleMonthCard.cpp
+         RoleMonth.cpp
+         RoleMessageStates.cpp
+         RoleManager.cpp
+         RoleMailManager.cpp
+         RoleLogonManager.cpp
+         正在生成代码...
+         正在编译...
+         RoleLauncherManager.cpp
+         RoleItemManager.cpp
+         RoleIdEntity.cpp
+         RoleGiff.cpp
+         RoleGameData.cpp
+         RoleFtpManager.cpp
+         RoleEx.cpp
+         RoleChest.cpp
+         RoleCheck.cpp
+         RoleCharManager.cpp
+         RoleCache.cpp
+         RoleAction.cpp
+         RoleAchievement.cpp
+         Role.cpp
+         LotteryManager.cpp
+         GameTable.cpp
+         GameServer.cpp
+         GameRobot.cpp
+         FishTimer.cpp
+         FishServer.cpp
+     1>FishServer.cpp(469): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+                 C:\Program Files (x86)\Windows Kits\8.1\Include\um\WinSock2.h(1850) : 参见“inet_addr”的声明
+     1>FishServer.cpp(2354): warning C4996: '_snwprintf': This function or variable may be unsafe. Consider using _snwprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(477) : 参见“_snwprintf”的声明
+     1>FishServer.cpp(2363): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+     1>FishServer.cpp(2367): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+     1>FishServer.cpp(2371): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+     1>FishServer.cpp(2375): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+     1>FishServer.cpp(2379): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+     1>FishServer.cpp(2383): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+     1>FishServer.cpp(2387): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+     1>FishServer.cpp(2391): warning C4996: '_snwscanf': This function or variable may be unsafe. Consider using _snwscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(577) : 参见“_snwscanf”的声明
+         正在生成代码...
+         正在编译...
+         FishPackageManager.cpp
+         FishUtility.cpp
+         RuntimeInfo.cpp
+         PathTimeController.cpp
+         PathLinearInterpolator.cpp
+         PathEvent.cpp
+         PathController.cpp
+         FishResManager.cpp
+         FishResData.cpp
+         FishMap.cpp
+         FishManager.cpp
+         FishLauncher.cpp
+         FishCollider.cpp
+         FishCamera.cpp
+         Fish.cpp
+         DeadStayTimer.cpp
+         BulletManager.cpp
+         Bullet.cpp
+         FishScene.cpp
+         FishDeskCmd.cpp
+         正在生成代码...
+         正在编译...
+         FishDesk.cpp
+         FishCallback.cpp
+         Config.cpp
+     1>FishLogic\Config.cpp(664): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(669): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(674): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(679): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(684): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(689): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(694): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(699): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(704): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(709): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(714): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(719): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(724): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(729): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(734): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(739): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(744): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(749): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(754): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(759): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(764): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(769): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(774): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(779): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(784): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(789): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(794): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(809): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(814): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(819): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(824): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(829): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(834): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(839): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(844): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(849): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(854): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(859): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(864): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(869): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(874): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(879): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(884): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(889): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(894): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(899): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(904): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(909): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(914): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(919): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(924): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(929): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(934): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(939): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(956): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(961): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(966): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(971): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(976): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(981): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(986): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(991): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(996): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1001): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1006): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1011): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1016): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1021): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1026): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1031): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1036): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1041): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1046): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1051): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1056): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1061): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1066): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1071): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1076): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1081): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1086): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1091): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1096): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1101): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1111): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1116): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1132): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1137): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1142): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1147): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1152): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1157): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1162): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1167): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1172): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1176): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1180): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1184): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1188): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1192): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1196): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1200): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1204): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1209): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1214): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1219): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1224): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1229): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1234): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1239): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1244): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1249): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1254): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1259): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1264): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1269): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1274): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1279): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1284): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1289): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1294): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1299): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1304): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1309): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1314): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1319): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1324): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1329): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(1334): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>FishLogic\Config.cpp(2126): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+         ExChangeManager.cpp
+         EventManager.cpp
+         AnnouncementManager.cpp
+         XmlReader.cpp
+         tinyxml2.cpp
+         FishServerConfig.cpp
+         FishConfig.cpp
+         DBLogManager.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ServerCoreWZ\\Output\Debug\GameServer.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\ServerCoreWZ\\Output\Debug Common.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ServerCoreWZ\\Output\Debug\GameServer.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ServerCoreWZ\\Output\Debug\GameServer.lib" /MACHINE:X86 /SAFESEH /SAFESEH:NO D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\DBLogManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishConfig.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishServerConfig.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\tinyxml2.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\XmlReader.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\AnnouncementManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\EventManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\ExChangeManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\Config.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishCallback.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishDesk.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishDeskCmd.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishScene.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\Bullet.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\BulletManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\DeadStayTimer.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\Fish.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishCamera.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishCollider.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishLauncher.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishMap.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishResData.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishResManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\PathController.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\PathEvent.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\PathLinearInterpolator.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\PathTimeController.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RuntimeInfo.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishUtility.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishPackageManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishServer.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\FishTimer.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\GameRobot.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\GameServer.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\GameTable.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\LotteryManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\Role.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleAchievement.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleAction.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleCache.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleCharManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleCheck.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleChest.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleEx.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleFtpManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleGameData.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleGiff.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleIdEntity.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleItemManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleLauncherManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleLogonManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleMailManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleMessageStates.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleMonth.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleMonthCard.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleOnlineReward.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleProtect.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleQueueManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleRank.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleRate.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleRelation.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleRelationRequest.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleTask.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleTitleManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\RoleVip.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\ShopManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\SkillInfo.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\stdafx.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\TableManager.obj
+         D:\ServerCoreWZ\\Output\Temp\GameServer\Debug\UserLogonManager.obj
+         D:\ServerCoreWZ\Output\Debug\Common.lib
+         GameServer.vcxproj -> D:\ServerCoreWZ\\Output\Debug\GameServer.exe
+     1>已完成生成项目“D:\ServerCoreWZ\SourceCode\GameServer\GameServer.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:29.85
